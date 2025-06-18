@@ -8,16 +8,19 @@
 #include "mul.h"
 #include "sub.h"
 
+#include <stdlib.h>
+#include <time.h>
 
 int main()
 {
+	srand(time(NULL));
 	int x = 0;
 	int y = 0;
 
 	std::cout << "첫번째 수를 입력하세요 : ";
 	std::cin >> x;
-	std::cout << "두번째 수를 입력하세요 : ";
-	std::cin >> y;
+	std::cout << "두번째 수는 자동으로 입력됩니다.";
+	y = rand() % 100;
 
 	printf("입력된 수 x[ %d ] y[ %d ]\n", x, y);
 	printf("add[ %d ] sub[ %d ] mul[ %d ] dive[ %d ] mod[ %d ]\n",
