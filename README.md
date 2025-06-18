@@ -1,2 +1,6 @@
-# b1_calc
-오픈소스 소프트웨어 기말고사 1반 문제
+![스크린샷1](images/screenshot_1.png)
+![스크린샷1](images/screenshot_2.png)
+![스크린샷1](images/screenshot_3.png)
+![스크린샷1](images/screenshot_4.png)
+![스크린샷1](images/screenshot_5.png)
+![스크린샷1](images/screenshot_6.png)
