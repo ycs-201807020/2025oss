@@ -1,4 +1,5 @@
+// add.h íŒŒì¼
 #pragma once
 
-/// ´õÇÏ±â ÇÔ¼ö ¿øÇü
-int add(int, int);
+/// ë§ì…ˆì˜ í—¤ë”
+int add(int x, int y);

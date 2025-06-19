@@ -1,4 +1,4 @@
+// sub.h íŒŒì¼
 #pragma once
-
-/// »©±â ÇÔ¼ö ¿øÇü
-int sub(int, int);
+// ëº„ì…ˆìš© í—¤ë”
+int sub(int x, int y);
