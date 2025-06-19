@@ -1,4 +1,5 @@
+// mul.h íŒŒì¼.
 #pragma once
 
-/// °öÇÏ±â ÇÔ¼ö ¿øÇü
-int mul(int, int);
+// ê³±ì…ˆìš© í—¤ë”
+int mul(int x, int y);

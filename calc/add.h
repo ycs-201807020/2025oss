@@ -1,3 +1,5 @@
+// add.h 파일
 #pragma once
 
-int add(int, int);
+/// 덧셈의 헤더
+int add(int x, int y);
