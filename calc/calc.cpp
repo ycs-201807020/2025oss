@@ -1,13 +1,10 @@
-﻿// calc.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
-//
-
+﻿//작성해둔 모든 헤더를 불러온다
 #include <iostream>
-#include "add.h"
-#include "dive.h"
-#include "mod.h"
-#include "mul.h"
-#include "sub.h"
-
+#include "add.h"	//덧셈기능 헤더 파일 추가
+#include "sub.h"	//뺄셈기능 헤더 파일 추가
+#include "mul.h"	//곱셈기능 헤더 파일 추가
+#include "dive.h"	//나눗셈[몫]기능 헤더 파일 추가
+#include "mod.h"	//나눗셈[나머지]기능 헤더 파일 추가
 
 int main()
 {
