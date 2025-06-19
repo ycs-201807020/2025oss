@@ -28,4 +28,4 @@ oss 기말 프로젝트
 ![7_충돌되는코드를 삭제해서 해결](https://github.com/user-attachments/assets/f04258dd-3205-44b7-9954-2f6f0b70bf98)
 
 8_git flow 화면
-![중간화면깃플로우](https://github.com/user-attachments/assets/eebe5253-c964-4c0e-ac18-a1aacfde8b56)
+![깃플로우화면](https://github.com/user-attachments/assets/500f02ed-1939-46e8-a334-14cb890c8aee)
