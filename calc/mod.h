@@ -1,4 +1,5 @@
+// mod.h íŒŒì¼
 #pragma once
 
-/// ³ª¸ÓÁö ±¸ÇÏ±â ÇÔ¼ö ¿øÇü
-int mod(int, int);
+/// ë‚˜ëˆ—ì…ˆ[ë‚˜ë¨¸ì§€] í—¤ë”
+int mod(int x, int y);
