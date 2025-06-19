@@ -1,4 +1,5 @@
+// dive.h íŒŒì¼
 #pragma once
 
-/// ³ª´©±â ÇÔ¼ö ¿øÇü
-int dive(int, int);
+/// ë‚˜ëˆ—ì…ˆ[ëª«] í—¤ë”
+int dive(int x, int y);
