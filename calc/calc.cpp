@@ -1,25 +1,22 @@
-﻿// calc.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
-//
-
+﻿//작성해둔 모든 헤더를 불러온다
 #include <iostream>
-#include "add.h"
-#include "dive.h"
-#include "mod.h"
-#include "mul.h"
-#include "sub.h"
-
+#include "add.h"	//덧셈기능 헤더 파일 추가
+#include "sub.h"	//뺄셈기능 헤더 파일 추가
+#include "mul.h"	//곱셈기능 헤더 파일 추가
+#include "dive.h"	//나눗셈[몫]기능 헤더 파일 추가
+#include "mod.h"	//나눗셈[나머지]기능 헤더 파일 추가
 
 int main()
 {
 	int x = 0;
 	int y = 0;
 
-	std::cout << "첫번째 수를 입력하세요 : ";
+	std::cout << "첫번째 수 입력하세요 :";
 	std::cin >> x;
-	std::cout << "두번째 수를 입력하세요 : ";
+	std::cout << "두번째 수 입력하세요 :";
 	std::cin >> y;
 
-	printf("입력 x[ %d ] y[ %d ]\n", x, y);
-	printf("add[ %d ] sub[ %d ] mul[ %d ] dive[ %d ] mod[ %d ]\n", 10, 6, 16, 4, 0);
-	//add(x, y), sub(x, y), mul(x, y), dive(x, y), mod(x, y));
+	printf("입력된 수 x[ %d ] y[ %d ] \n", x, y);
+	printf("add [ %d ] sub [ %d ] mul [ %d ] dive [ %d ] mod [ %d ]\n",
+		add(x, y), sub(x, y), mul(x, y), dive(x, y), mod(x, y));
 }
